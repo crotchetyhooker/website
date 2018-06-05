@@ -1,79 +1,91 @@
-<!DOCTYPE html>
-<html>
-<title>Crotchety Hooker Homepage</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="stylsheet.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-.w3-sidebar {
-  z-index: 3;
-  width: 250px;
-  top: 43px;
-  bottom: 0;
-  height: inherit;
-} 
-</style>
-<body>
-
-<!-- Navbar -->
-<div class="nav">
-    <li class="About"><a href="#" >About</a></li>
-    <li class="Crochet Academy"><a href="#" >Crochet Academy</a></li>
-    <li class="Knowledge Base"><a href="#" >Knowledge Base</a></li>
-    <li class="Patterns"><a href="#" >Patterns</a></li>
-    <li class="Dictionary"><a href="#" >Dictionary</a></li>
-    <li class="What is Crochet"><a href="#" >What is Crochet</a></li>c
-  
-</div>
-
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="maincont" style="margin-left:250px">
-
-  <div class="row padding1">
-    <div class="twothird container">
-      <h1 class="text-teal">Heading</h1>
-      <p>Hello and welcome to Crotchetyhooker.com!</p>
-    </div>
-    <div class="third container">
-      <p class="border padding-large padding2 center">AD</p>
-      <p class="border padding-large padding1 center">AD</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="twothird container">
-      <h1 class="text-teal">Heading</h1>
-      <p>Here you can find instructional videos, articles and tons more.</p>
-    </div>
-    <div class="third container">
-      <p class="border padding-large padding2 center">AD</p>
-      <p class="border padding-large padding1 center">AD</p>
-    </div>
-  </div>
-
-  <div class="row padding1">
-    <div class="twothird container">
-      <h1 class="text-teal">Heading</h1>
-      <p>Example text here</p>
-    </div>
-    <div class="third container">
-      <p class="border padding-large padding2 center">AD</p>
-      <p class="border padding-large padding1 center">AD</p>
-    </div>
-  </div>
-
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
  
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  line-height: 40px;
+  height: 20px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 2 - Float */
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+     
+.maincont,#main{transition:margin-left .4s}
+.maincont{margin-left:0!important;margin-right:0!important}}
 
-  <footer id="myFooter">
-    <div class="container theme2 padding2">
-      <h4>Footer</h4>
-    </div>
+.row:after,.row:before{content:"";display:table;clear:both}
 
-  </footer>
+.padding1{padding-top:64px!important;padding-bottom:64px!important}
 
-<!-- END MAIN -->
-</div>
-</body>
-</html>
+.padding2{padding-top:32px!important;padding-bottom:32px!important}
+
+.twothird{float:left;width:100%}
+
+.container:after,.container:before{content:"";display:table;clear:both}
+
+.text-teal,.w3-hover-text-teal:hover{color:#009688!important}
+
+.third{float:left;width:100%}
+.third{width:33.33333%}
+.third{padding:0 8px}
+
+.padding-large{padding:12px 24px!important}
+
+.border{border:1px solid #ccc!important}
+
+.w3-center{display:inline-block;width:auto}
+.w3-center{text-align:center}
+.w3-center{text-align:center!important}
+
+.theme2 {color:#fff !important; background-color:#666666 !important}
+.theme1 {color:#fff !important; background-color:#333333 !important}
+
+}
