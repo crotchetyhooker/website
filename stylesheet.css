@@ -30,6 +30,7 @@
   
   .logo { 
   vertical-align: middle;
+  height: 175px;
 }
 
 .clear {
@@ -47,7 +48,6 @@
 .nav li {
   display: inline;
   cursor: pointer;
-  border: 1px solid black;
   padding: 20px;
   margin-left: -5px;
 }
@@ -57,7 +57,7 @@
 }
 
 .nv li:hover {
-  background: #fff;
+  background: ##1c8e7d;
 }
 
 /* @media screen and (min-width: 600px) {
