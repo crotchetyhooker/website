@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0;
   padding: 0;
@@ -52,69 +50,35 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
- 
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
+     
+.maincont,#main{transition:margin-left .4s}
+.maincont{margin-left:0!important;margin-right:0!important}}
+
+.row:after,.row:before{content:"";display:table;clear:both}
+
+.padding1{padding-top:64px!important;padding-bottom:64px!important}
+
+.padding2{padding-top:32px!important;padding-bottom:32px!important}
+
+.twothird{float:left;width:100%}
+
+.container:after,.container:before{content:"";display:table;clear:both}
+
+.text-teal,.w3-hover-text-teal:hover{color:#009688!important}
+
+.third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
+.third{width:33.33333%}
+.third{padding:0 8px}
+
+.padding-large{padding:12px 24px!important}
+
+.border{border:1px solid #ccc!important}
+
+.w3-center{display:inline-block;width:auto}
+.w3-center{text-align:center}
+.w3-center{text-align:center!important}
+
+.theme2 {color:#fff !important; background-color:#666666 !important}
+.theme1 {color:#fff !important; background-color:#333333 !important}
+
 }
-
-
-
-
-<--! body {
-    background-color: powderblue;
-}
-h1 {
-    color: blue;
-}
-p {
-    color: red;
-}
-
-//Element selector
-
-p {
-    text-align: center;
-    color: red;
-} 
-
-//id selector
-
-#para1 {
-    text-align: center;
-    color: red;
-}
-
-
-//classes
-
-.center {
-    text-align: center;
-    color: red;
-}
-
-
-//p.center in body p class=
-
-p.center {
-    text-align: center;
-    color: red;
-}
-
-//groups
-
-
-h1, h2, p {
-    text-align: center;
-    color: red;
-} -->
