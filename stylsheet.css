@@ -1,9 +1,34 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: #fff;
-}
- 
+
+ * {
+   box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background: white;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background: white;
+    height: 20vh;
+  }
+
 .nav ul {
   list-style: none;
   background-color: #444;
@@ -12,10 +37,10 @@ body {
   margin: 0;
 }
 .nav li {
-  font-family: 'Lato', sans-serif;
-  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
   line-height: 40px;
-  height: 20px;
+  height: 40px;
   border-bottom: 1px solid #888;
 }
  
@@ -45,47 +70,10 @@ body {
     font-size: 1.4em;
   }
  
-  /* Option 2 - Float */
+  /* Option 1 - Display Inline */
   .nav li {
-    float: left;
+    display: inline-block;
+    margin-right: -4px;
   }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
+  
   }
-  .nav {
-    background-color: #444;
-  }
-     
-.maincont,#main{transition:margin-left .4s}
-.maincont{margin-left:0!important;margin-right:0!important}}
-
-.row:after,.row:before{content:"";display:table;clear:both}
-
-.padding1{padding-top:64px!important;padding-bottom:64px!important}
-
-.padding2{padding-top:32px!important;padding-bottom:32px!important}
-
-.twothird{float:left;width:100%}
-
-.container:after,.container:before{content:"";display:table;clear:both}
-
-.text-teal,.w3-hover-text-teal:hover{color:#009688!important}
-
-.third{float:left;width:100%}
-.third{width:33.33333%}
-.third{padding:0 8px}
-
-.padding-large{padding:12px 24px!important}
-
-.border{border:1px solid #ccc!important}
-
-.center{display:inline-block;width:auto}
-.center{text-align:center}
-.center{text-align:center!important}
-
-.theme2 {color:#fff !important; background-color:#666666 !important}
-.theme1 {color:#fff !important; background-color:#333333 !important}
-
-}
