@@ -29,8 +29,7 @@
   }
   
   .logo { 
-  float: left;
-  display: inline-block;
+  vertical-align: middle;
 }
 
 .clear {
@@ -44,18 +43,25 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display:inline
 }
 
 .nav li {
-    font-size: 5vh;
-    font-color: #000000;
+  display: inline;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: -5px;
 }
 
 .nav li a {
     display: block;
     padding: 8px;
     background-color: #fff;
+}
+
+.nv li:hover {
+  background: #fff;
 }
 
 /* @media screen and (min-width: 600px) {
