@@ -27,10 +27,19 @@
     background: white;
     height: 20vh;
   }
-   /* Navigation Styling*/
+   /*  TOP Navigation Styling*/
+   
+ .nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+} 
+   
  .nav ul {
   list-style: none;
   background-color: #fff;
+  text-align: center;
   padding: 0;
   margin: 0;
 }
@@ -115,10 +124,43 @@
     font-size: 1.4em;
   }
  
-  /* Option 1 - Display Inline fff=white */
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
   
-  }
+     /*  LEFT Navigation Styling*/
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+  
+    
+  }/*end BODY tag */
