@@ -38,6 +38,8 @@
 
 .nav li {
     float: left;
+    font-size: 20vh;
+    font-color: #000;
 }
 
 .nav li a {
@@ -64,7 +66,7 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #fff;
     position: fixed
 }
 
@@ -77,7 +79,7 @@
 
 /* Change the link color on hover */
 .leftnav li a:hover {
-    background-color: #555;
+    background-color: #fff;
     color: white;
 }
   
