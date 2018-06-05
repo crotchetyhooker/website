@@ -27,6 +27,17 @@
     background: white;
     height: 20vh;
   }
+  
+  .logo { 
+  float: left;
+  display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
+
+  
    /*  TOP Navigation Styling*/
    
 .nav ul {
@@ -34,10 +45,10 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    float: right;
 }
 
 .nav li {
-    float: left;
     font-size: 5vh;
     font-color: #000000;
 }
@@ -56,6 +67,13 @@
     line-height: 50px;
     font-size: 1.4em;
   }
+  
+  @media handheld and (max-width:768px),
+      screen and (max-width: 768px) {
+  #logo{
+    visibility: hidden; 
+  }
+} 
  
  */
   
