@@ -12,15 +12,15 @@
   #main > article {
     flex: 1;
   }
-  #main > nav, 
+  #main > leftnav, 
   #main > aside {
     flex: 0 0 20vw;
     background: white;
   }
-  #main > nav {
+  #main > leftnav {
     order: -1;
   }
-  header, footer, article, nav, aside {
+  header, footer, article, leftnav, aside {
     padding: 1em;
   }
   header, footer {
@@ -43,7 +43,7 @@
 .nav li a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #fff;
 }
 
 /* @media screen and (min-width: 600px) {
@@ -55,89 +55,30 @@
     font-size: 1.4em;
   }
  
-.nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
- 
-
-.nav ul {
-  list-style: none;
-  background-color: #fff;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #fff;
-}
- 
-.nav a {
-  text-decoration: none;
-  color: #000;
-  display: block;
-  transition: .3s background-color;
-}
- 
-.nav a:hover {
-  background-color: #005f5f;
-}
- 
-.nav a.active {
-  background-color: #fff;
-  color: #fff;
-  cursor: default;
-}
- 
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
- 
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  } */
+ */
   
      /*  LEFT Navigation Styling*/
   
-ul {
+.leftnav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed
 }
 
-li {
-    float: left;
-}
-
-li a {
+.leftnav li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    color: #000;
+    padding: 8px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
+/* Change the link color on hover */
+.leftnav li a:hover {
+    background-color: #555;
+    color: white;
 }
   
     
