@@ -37,7 +37,7 @@
 }
 
 .nav li {
-    float: left;
+    float: center;
 }
 
 .nav li a {
@@ -46,8 +46,7 @@
     background-color: #dddddd;
 }
 
- 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
 .nav li {
     width: 120px;
     border-bottom: none;
@@ -106,7 +105,7 @@
   .nav li {
     display: inline-block;
     margin-right: -4px;
-  }
+  } */
   
      /*  LEFT Navigation Styling*/
   
