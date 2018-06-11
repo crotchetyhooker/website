@@ -1,3 +1,4 @@
+
  * {
    box-sizing: border-box; 
   }
@@ -42,38 +43,26 @@
    
 .nav ul {
     list-style-type: none;
-    display:inline
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 .nav li {
-  display: inline;
-  cursor: pointer;
-  padding: 20px;
-  margin-left: -5px;
+    float: left;
 }
 
 .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-.nv li:hover {
-  background: ##1c8e7d;
-}
-
-/* @media screen and (min-width: 600px) {
-.nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
-  
-  @media handheld and (max-width:768px),
-      screen and (max-width: 768px) {
-  #logo{
-    visibility: hidden; 
-  }
+.nav li a:hover {
+    background-color: #111;
 } 
  
  */
