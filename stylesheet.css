@@ -29,8 +29,12 @@
     height: 20vh;
   }
   
-  leftnav {
+  leftnav, header, footer, aside {
   position: fixed;
+  }
+  
+  article {
+  position: relative; 
   }
   
 
