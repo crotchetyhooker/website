@@ -29,15 +29,6 @@
     height: 20vh;
   }
   
-  leftnav, header, footer, aside {
-  position: fixed;
-  }
-  
-  article {
-  position: relative; 
-  }
-  
-
 .clear {
   clear: both;
 }
