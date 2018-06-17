@@ -1,0 +1,133 @@
+
+* {
+
+font-family: 'Lato', sans-serif;
+
+}
+
+.column {
+    float: right;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.navbar-custom {
+    background-color: #14737a;
+    font-size: 15px;
+    border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	width: 90%;
+	left: 0;
+  	text-align: center;
+  	margin:0 auto;
+  	box-shadow: 5px 5px 5px grey;
+
+
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+
+    
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(0,0,0);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.leftnav {
+
+	background-color: white;
+	
+
+}
+
+.nav li a{
+    
+    color: black;
+    
+}
+
+.nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.mainarticlebg {
+
+	background: white;
+
+}
+
+.rightadbg {
+
+	background: white;
+
+}
+
+.footer {
+
+	background-color: #14737a;
+    font-size: 20px;
+    border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	width: 90%;
+	left: 0;
+  	text-align: center;
+  	margin:0 auto;
+  	box-shadow: 5px 5px 5px grey;
+  	padding: 15px;
+
+}
+
+.flex-sm-column {
+
+	position: fixed; 
+
+}
+
+hr {
+
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-style: inset;
+    border-width: 2px;
+    border-color: #14737a;
+    
+
+}
+
+
+
+
+
+/*Close body tag 14737a */
