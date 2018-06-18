@@ -19,6 +19,34 @@ font-family: 'Lato', sans-serif;
     display: table;
 }
 
+.search {
+
+	max-width: 500px;
+
+}
+
+.empty {
+
+	height: 15%;
+
+}
+
+.image {
+
+	
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	box-shadow: 5px 5px 5px grey;
+	margin: 15px;
+
+	
+
+}
+
+
+
 
 .navbar-custom {
     background-color: #14737a;
@@ -32,6 +60,7 @@ font-family: 'Lato', sans-serif;
   	text-align: center;
   	margin:0 auto;
   	box-shadow: 5px 5px 5px grey;
+  	
 
 
 }
@@ -102,7 +131,7 @@ font-family: 'Lato', sans-serif;
   	text-align: center;
   	margin:0 auto;
   	box-shadow: 5px 5px 5px grey;
-  	padding: 15px;
+  	padding: 10px;
 
 }
 
@@ -117,8 +146,8 @@ hr {
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 6em;
+    margin-right: 6em;
     border-style: inset;
     border-width: 2px;
     border-color: #14737a;
