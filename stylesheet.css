@@ -121,7 +121,7 @@ font-family: 'Lato', sans-serif;
 	background: white;
 
 }
-
+	/* General Shadow Image Styling*/
 .image {
 
 	
@@ -130,9 +130,28 @@ font-family: 'Lato', sans-serif;
 	border-top-left-radius: 6px;
 	border-bottom-left-radius: 6px;
 	box-shadow: 5px 5px 5px grey;
-	margin: 15px;
+	margin-right: 15px;
+	margin-left: 5px;
+	
 
 }
+
+.section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rightimage {
+    float: right;
+}
+
+.leftimage {
+    float: left;
+}
+
+
+
 
 hr {
 
