@@ -5,6 +5,11 @@ font-family: 'Lato', sans-serif;
 
 }
 
+a:link {
+    color: #14737a;
+}
+
+
 /* Social Icons Styling */
 
 .column {
@@ -150,7 +155,9 @@ font-family: 'Lato', sans-serif;
     float: left;
 }
 
-
+th, td {
+    padding: 10px;
+}
 
 
 hr {
