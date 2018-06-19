@@ -9,7 +9,6 @@ a:link {
     color: #14737a;
 }
 
-
 /* Social Icons Styling */
 
 .column {
@@ -71,7 +70,7 @@ a:link {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
 
-    color: #000;
+    color: white;
     
 }
 
@@ -186,7 +185,7 @@ hr {
 .footer {
 
 	background-color: #14737a;
-    font-size: 20px;
+    font-size: 15px;
     border-top-right-radius: 6px;
 	border-bottom-right-radius: 6px;
 	border-top-left-radius: 6px;
@@ -198,6 +197,17 @@ hr {
   	box-shadow: 5px 5px 5px grey;
   	padding: 10px;
 
+}
+
+.button {
+    background-color: #59c6af; 
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
 }
 
 
