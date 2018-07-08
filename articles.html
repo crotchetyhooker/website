@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- CSS references -->
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<!-- CSS references -->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
-	<link href="stylesheet.css" rel="stylesheet"><!-- Google Fonts -->
+	<link href="stylesheet.css" rel="stylesheet">
+	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<title>Articles</title>
 	<link href="logo.png" rel="icon" type="image/png">
-	
+
 	<!--Google Analytics tracking-->
-	
+
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120977745-1">
 	</script>
 	<script>
-	 window.dataLayer = window.dataLayer || [];
-	 function gtag(){dataLayer.push(arguments);}
-	 gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-	 gtag('config', 'UA-120977745-1');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-120977745-1');
 	</script>
 </head>
+
 <body>
-	<!-- Header- Top Nav -->
+	<!-- Header- Top Nav/Social Icons, Search and Mobile Ad -->
 	<header>
+		<div class="d-none d-block d-sm-none">
+			<center><img src="logo.png"></center>
+		</div>
 		<div class="row">
-			<div class="col-sm-8"><img src="mainlogo.png"></div>
-			<div class="row2 col-sm-4">
+			<div class="d-none d-md-block col-sm-8"><img src="mainlogo.png"></div>
+			<!-- Start social icons on large-->
+			<div class="row2 d-none d-md-block col-sm-4">
 				<div class="column">
 					<a href="https://www.pinterest.com/crotchetyhooker/"><img src="pinterest.png" style="width:100%"></a>
 				</div>
@@ -41,330 +52,393 @@
 					<a href="https://twitter.com/crotchetyhooker"><img src="twitter.png" style="width:100%"></a>
 				</div>
 				<div class="column">
-					<a href="https://youtube.com/crotchetyhooker"><img src="youtube.png" style="width:100%"></a>
+					<a href="https://www.youtube.com/channel/UCxF_GLGsWcKc_AQqag-lsew"><img src="youtube.png" style="width:100%"></a>
 				</div>
 			</div>
 		</div>
-		<!--end social icons-->
-		<p></p>
-		<nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
-			<a class="navbar-brand" href="index.html"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler custom-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Everything Crochet</a>
-						<div aria-labelledby="navbarDropdown" class="dropdown-menu">
-							<a class="dropdown-item" href="academy.html">The Academy</a> <a class="dropdown-item" href="dictionary.html">Dictionary</a> <a class="dropdown-item" href="articles.html">Articles</a> <a class="dropdown-item" href="funstuff.html">Fun Stuff</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="patterns.html">Patterns</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="samplearticle.html">What is Crochet?</a>
-					</li>
-				</ul>
-				<!--End Horizontal Nav Links-->
-			</div>
-			<!--Begin Search Bar-->
-			<div class="search">
-				<script>
-				(function() {
-				var cx = '017403435907850301429:rb_hw-awxn4';
-				var gcse = document.createElement('script');
-				gcse.type = 'text/javascript';
-				gcse.async = true;
-				gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(gcse, s);
-				})();
-				</script> 
-			</div>
-		</nav>
-		<p></p>
-
-	</header><!-- Begin body grid -->
-	<!-- Left Navigation -->
-  		<div class= "container-fluid">
-    	<div class="row"> 
-    		<div class="leftnav hidden-xs col-lg-2">
-    		<div class="empty"></div>
-    		<ul class="nav flex-sm-column">
-  			<li class="nav-item">
-    		<a class="nav-link active" href="#L1">Crochet Basics</a>
-  			</li>
-  			<li class="nav-item">
-    		<a class="nav-link" href="#L2">Yarn and Tools</a>
-  			</li>
-  			<li class="nav-item">
-   			 <a class="nav-link" href="#L3">How do I...</a>
-  			</li>
-  			<li class="nav-item">
-   			 <a class="nav-link" href="#L4">What is...</a>
-   			 <li class="nav-item">
-   			 <a class="nav-link" href="#L5">Amigurumi</a>
-  			</li>
-  			<li class="nav-item">
-   			 <a class="nav-link" href="#L6">Legal and <br> Commerce</a>
-  			</li>
-  			<li class="nav-item">
-   			 <a class="nav-link" href="#L7">Miscellaneous</a>
-  			</li>
-  			</li>
-			</ul>    		
-    		</div><!--end left nav-->
-			<!-- Main Article -->
-			<div class="mainarticlebg col-xs-12 col-lg-8">
-				<p></p>
-				<p></p>
-				<p></p>
-				<p></p>
-				<p></p>
-				<p></p>
-				<center>
-					<h1>The Crochet Knowledge Base</h1>
-					<p></p>
-					<p><i>This is where you can learn practically anything about crochet.</i></p>
-				</center>
-				<p></p>
-				<p></p>
-				<hr>
-				<h3 id="L1">Crochet Basics</h3>
-				<center>
-				<table>
-				<tr>
-				<td><a href="#">The Getting Started Guide</a></td>
-				<td><a href="#">Printable Step-by-Step Tutorial</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">What patterns should I try?</a></td>
-				<td><a href="#">What does this word mean?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">Beginners Mistakes</a></td>
-				<td><a href="#">All About Crochet Hooks</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">The Turning Chain Controversy</a></td>
-				<td><a href="#">How do I change colors?</a></td>
-				<tr>
-				<td><a href="#">How do I join pieces?</a></td>
-				<td><a href="#">Three ways to work into a turning chain</a></td>
-				</tr>
-				</tr>
-				</table>	
-				</center>
-				<hr>
-				<h3 id="L2">Yarn and Tools</h3>
-				<center>
-				<table>
-				<tr>
-				<td><a href="#">How is yarn made?</a></td>
-				<td><a href="#">Where can I buy yarn?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">How do I read a yarn label?</a></td>
-				<td><a href="#">Calculate Yardage on Unlabelled Yarn</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">How do I dye yarn?</a></td>
-				<td><a href="#">What kinds of yarn are there?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">What do I need besides yarn?</a></td>
-				<td><a href="#">What does this thing do?</a></td>
-				<tr>
-				<td><a href="#">How can I see what a yarn worked up?</a></td>
-				<td><a href="#">How do I choose yarn for a pattern?</a></td>
-				</tr>
-				</tr>
-				</tr>
-				</table>
-				</center>
-				<hr>
-				<h3 id="L3">How do I...</h3>
-				<center>
-				<table>
-				<tr>
-				<td><a href="#">...reduce my stash?</a></td>
-				<td><a href="#">...make things fit better?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...use odd novelty yarns?</a></td>
-				<td><a href="#">...read written patterns?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...put images on crochet?</a></td>
-				<td><a href="#">...read symbol patterns?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...add embellishments?</a></td>
-				<td><a href="#">...use crochet thread?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...make things without patterns?</a></td>
-				<td><a href="#">...crochet with fabric?</a></td>
-				</tr>
-				</tr>
-				<tr>
-				<td><a href="#">...make crochet shoes and sandals?</a></td>
-				<td><a href="#">...weave in the ends?</a></td>
-				</tr>
-				</tr>
-				<tr>
-				<td><a href="#">...block my projects?</a></td>
-				<td><a href="#">...make clay hook handles?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...make garments look professional?</a></td>
-				<td><a href="#">...add tags to crochet?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...keep everything organized?</a></td>
-				<td><a href="#">...make the magic ring?</a></td>
-				</tr>
-				</table>
-				</center>
-				<hr>
-				<h3 id="L4">What is...</h3>
-				<center>
-				<table>
-				<tr>
-				<td><a href="#">...gauge? Or a gauge swatch?</a></td>
-				<td><a href="#">...tapestry crochet?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...amigurumi?</a></td>
-				<td><a href="#">...filet crochet?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...freeform crochet?</a></td>
-				<td><a href="#">...3D crochet?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...yarn pooling?</a></td>
-				<td><a href="#">...a graphgan?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">...needle felting?</a></td>
-				<td><a href="#">...foundation single crochet?</a></td>
-				</tr>
-				</table>
-				</center>
-				<hr>
-				<h3 id="L5">Amigurumi</h3>
-				<center>
-				<table>
-				<tr>
-				<td><a href="#">What is Amigurumi?</a></td>
-				<td><a href="#">Amigurumi Basic Techniques</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">Amigurumi Advanced Techniques</a></td>
-				<td><a href="#">Three Ways to Do Single Crochet</a></td>
-				</tr>
-				</table>
-				</center>
-				<hr>
-				<h3 id="L6">Legal and Commerce</h3>
-				<center>
-				<table>
-				<tr>
-				<td><a href="#">Am I allowed to sell things made from a pattern?</a></td>
-				<td><a href="#">Can I give a copy of a pattern to a friend?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">Can I copy patterns for a class?</a></td>
-				<td><a href="#">How should I price my handmade work?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">What should I charge to teach?</a></td>
-				<td><a href="#">What crochet items sell well?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">What types of patterns sell well?</a></td>
-				<td><a href="#">Should my pattern be free or paid?</a></td>
-				</tr>
-				</table>
-				</center>
-				<hr>
-				<h3 id="L7">Miscellaneous</h3>
-				<center>
-				<table>
-				<tr>
-				<td><a href="#">Why You Should Learn to Crochet</a></td>
-				<td><a href="#">What should I make as a Gift</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">What is yarnbombing?</a></td>
-				<td><a href="#">What charities should I give to?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">How young can kids learn to crochet?</a></td>
-				<td><a href="#">What are some projects guys might like?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">Where can I find a crochet group?</a></td>
-				<td><a href="#">Can I take my hook on a plane?</a></td>
-				</tr>
-				<tr>
-				<td><a href="#">Size Charts for Blankets and Garments</a></td>
-				<td><a href="#">Can I take my hook on a plane?</a></td>
-				</tr>
-				</tr>
-				<tr>
-				<td><a href="#">Can I wash my crochet projects? Or yarn?</a></td>
-				</tr>
-				</table>
-				</center>
-				<p><p><p><p>
-				<center><h4>Still have questions?</h4>
-			<p>That's ok! If something in this article is confusing or if there are any questions in general, post to Facebook <a href="https://www.facebook.com/crotchetyhooker/">here</a>. Myself or the nice folks on the page will be happy to help out!
+		<!-- Social icons on small-->
+		<div class="d-block d-sm-none">
+			<center>
+				<div class="column2">
+					<a href="https://www.pinterest.com/crotchetyhooker/"><img src="pinterest.png" style="width:100% "></a>
+				</div>
+				<div class="column2">
+					<a href="https://www.facebook.com/crotchetyhooker/"><img src="facebook.png" style="width:100% "></a>
+				</div>
+				<div class="column2">
+					<a href="http://instagram.com/crotchetyhooker"><img src="instagram.png" style="width:100% "></a>
+				</div>
+				<div class="column2">
+					<a href="https://twitter.com/crotchetyhooker"><img src="twitter.png" style="width:100% "></a>
+				</div>
+				<div class="column2">
+					<a href="https://www.youtube.com/channel/UCxF_GLGsWcKc_AQqag-lsew"><img src="youtube.png" style="width:100% "></a>
 			</center>
 			</div>
-			<!--end main article-->
-			<!-- Right Navigation -->
-			<div class="rightadbg col-xs-12 v col-lg-2">
-				<div class="empty"></div>
-				<div align="center">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-					</script> <!-- New Site -->
-					 <ins class="adsbygoogle" data-ad-client="ca-pub-0743538565269345" data-ad-slot="4903795406" style="display:inline-block;width:160px;height:600px"></ins> 
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
+		</div>
+		<!-- Search for mobile-->
+		<div class="search d-block d-sm-none">
+			<script>
+				(function() {
+					var cx = '017403435907850301429:rb_hw-awxn4';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = true;
+					gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();
+			</script>
+			<gcse:searchbox-only></gcse:searchbox-only>
+		</div>
+		<p>
+			<!-- end search on mobile, begin mobile ad-->
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Mobile Ad -->
+			<div class="d-block d-sm-none">
+				<ins class="adsbygoogle" style="display:inline-block;width:320px;height:100px" data-ad-client="ca-pub-0743538565269345" data-ad-slot="7050647878"></ins>
+			</div>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			<!-- Begin Horizontal Nav -->
+			<nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+				<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler custom-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Everything Crochet</a>
+							<div aria-labelledby="navbarDropdown" class="dropdown-menu">
+								<a class="dropdown-item" href="academy.html">The Academy</a> <a class="dropdown-item" href="dictionary.html">Dictionary</a> <a class="dropdown-item" href="articles.html">Articles</a> <a class="dropdown-item" href="funstuff.html">Fun Stuff</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="patterns.html">Patterns</a>
+						</li>
+					</ul>
+					<!--End Horizontal Nav Links-->
 				</div>
+				<!--Begin Search Bar for large-->
+				<div class="search d-none d-md-block">
+					<script>
+						(function() {
+							var cx = '017403435907850301429:rb_hw-awxn4';
+							var gcse = document.createElement('script');
+							gcse.type = 'text/javascript';
+							gcse.async = true;
+							gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(gcse, s);
+						})();
+					</script>
+					<gcse:searchbox-only></gcse:searchbox-only>
+				</div>
+			</nav>
+	</header>
+	<!-- Begin body grid -->
+	<!-- Left Navigation -->
+	<div class="row">
+		<div class="leftnav d-none d-md-block col-lg-2">
+			<ul class="nav flex-sm-column">
+				<li class="nav-item">
+					<a class="nav-link active" href="#L1">Crochet Basics</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#L2">Yarn and Tools</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#L3">How do I...</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#L4">What is...</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#L5">Amigurumi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#L6">Legal and <br> Commerce</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#L7">Miscellaneous</a>
+					</li>
+				</li>
+			</ul>
+		</div>
+		<!--end left nav-->
+		<!-- Main Article -->
+		<div class="mainarticlebg d-block col-lg-8">
+			<center>
+				<h1>Everything Crochet Articles, Tutorials and Guides</h1>
+				<p></p>
+				<p><i>Answers to every question you've ever wanted to ask.</i></p>
+			</center>
+			<p></p>
+			<p></p>
+			<hr>
+			<h3 id="L1">Crochet Basics</h3>
+			<center>
+				<table>
+					<tr>
+						<td><a href="#">The Getting Started Guide</a></td>
+						<td><a href="#">Printable Step-by-Step Tutorial</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">What patterns should I try?</a></td>
+						<td><a href="#">What does this word mean?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Beginners Mistakes</a></td>
+						<td><a href="#">All About Crochet Hooks</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">The Turning Chain Controversy</a></td>
+						<td><a href="#">How do I change colors?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">How do I join pieces?</a></td>
+						<td><a href="#">Three ways to work into a turning chain</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">What does this word mean?</a></td>
+						<td><a href="#">How do I keep my hands from hurting?</a></td>
+					</tr>
+				</table>
+			</center>
+			<hr>
+			<h3 id="L2">Yarn and Tools</h3>
+			<center>
+				<table>
+					<tr>
+						<td><a href="#">How is yarn made?</a></td>
+						<td><a href="#">Where can I buy yarn?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">How do I read a yarn label?</a></td>
+						<td><a href="#">Calculate Yardage on Unlabelled Yarn</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">How do I dye yarn?</a></td>
+						<td><a href="#">What kinds of yarn are there?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">What do I need besides yarn?</a></td>
+						<td><a href="#">What does this thing do?</a></td>
+						<tr>
+							<td><a href="#">How can I see what a yarn worked up?</a></td>
+							<td><a href="#">How do I choose yarn for a pattern?</a></td>
+						</tr>
+					</tr>
+					</tr>
+				</table>
+			</center>
+			<hr>
+			<h3 id="L3">How do I...</h3>
+			<center>
+				<table>
+					<tr>
+						<td><a href="#">...reduce my stash?</a></td>
+						<td><a href="#">...make things fit better?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...use odd novelty yarns?</a></td>
+						<td><a href="#">...read written patterns?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...put images on crochet?</a></td>
+						<td><a href="#">...read symbol patterns?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...add embellishments?</a></td>
+						<td><a href="#">...use crochet thread?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...make things without patterns?</a></td>
+						<td><a href="#">...crochet with fabric?</a></td>
+					</tr>
+					</tr>
+					<tr>
+						<td><a href="#">...make crochet shoes?</a></td>
+						<td><a href="#">...weave in the ends?</a></td>
+					</tr>
+					</tr>
+					<tr>
+						<td><a href="#">...block my projects?</a></td>
+						<td><a href="#">...make clay hook handles?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...make my garments look professional?</a></td>
+						<td><a href="#">...keep everything organized?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...add tags to crochet?</a></td>
+						<td><a href="#">...make the magicring?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...add tags and labels to crochet?</a></td>
+						<td><a href="#">...translate a pattern from another language?</a></td>
+					</tr>
+				</table>
+			</center>
+			<hr>
+			<h3 id="L4">What is...</h3>
+			<center>
+				<table>
+					<tr>
+						<td><a href="#">...gauge? Or a gauge swatch?</a></td>
+						<td><a href="#">...tapestry crochet?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...amigurumi?</a></td>
+						<td><a href="#">...filet crochet?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...freeform crochet?</a></td>
+						<td><a href="#">...3D or starch crochet?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...yarn pooling?</a></td>
+						<td><a href="#">...a graphgan?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">...foundation crochet?</a></td>
+						<td><a href="#">...needle felting?</a></td>
+					</tr>
+				</table>
+			</center>
+			<hr>
+			<h3 id="L5">Amigurumi</h3>
+			<center>
+				<table>
+					<tr>
+						<td><a href="#">What is amigurumi?</a></td>
+						<td><a href="#">Amigurumi Basics</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Advanced Amigurumi</a></td>
+						<td><a href="#">Three Ways to Do Single Crochet</a></td>
+
+				</table>
+			</center>
+			<hr>
+			<h3 id="L6">Legal and Commerce</h3>
+			<center>
+				<table>
+					<tr>
+						<td><a href="#">Am I allowed to sell things made from a pattern?</a></td>
+						<td><a href="#">Can I give a copy of a pattern to a friend?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">How should I price my handmade work?</a></td>
+						<td><a href="#">Can I copy patterns for a class?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">What should I charge to teach?</a></td>
+						<td><a href="#">What crochet items sell well?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">What types of patterns sell well?</a></td>
+						<td><a href="#">Should my pattern be free or paid?</a></td>
+					</tr>
+				</table>
+			</center>
+			<hr>
+			<h3 id="L7">Miscellaneous.</h3>
+			<center>
+				<table>
+					<tr>
+						<td><a href="#">Why You Should Learn to Crochet</a></td>
+						<td><a href="#">How to Tackle the Gift Problem</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">What is yarnbombing?</a></td>
+						<td><a href="#">What charities should I give to?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">How young can kids learn to crochet?</a></td>
+						<td><a href="#">What are some projects guys might like?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Where can I find a crochet group?</a></td>
+						<td><a href="#">Can I take my hook on a plane?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">Size Charts for Blankets and Garments</a></td>
+						<td><a href="#">Can I wash my crochet projects? Or yarn?</a></td>
+					</tr>
+					<tr>
+						<td><a href="#">How to Deal With Excuses</a></td>
+						<td><a href="#">Crochet for Knitters</a></td>
+					</tr>
+				</table>
+			</center>
+
+		</div>
+		<!--end main article-->
+		<!-- Right Navigation -->
+		<div class="rightadbg d-none d-md-block col-lg-2">
+			<div align="center">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+				</script>
+				<!-- New Site -->
+				<ins class="adsbygoogle " data-ad-client="ca-pub-0743538565269345" data-ad-slot="4903795406" style="display:inline-block;width:160px;height:600px"></ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
 			</div>
 		</div>
-	</div><!--End Right Nav-->
-	<p><!-- Footer Elements --></p>
-	<footer class="footer">
-		<center>
-			Sign up here for free patterns, academy lessons and more!
-			<p><!-- Begin MailChimp Signup Form --></p>
-			<div id="mc_embed_signup">
-				<form action="https://crotchetyhooker.us16.list-manage.com/subscribe/post?u=e92e02046a8884bd6e47fb57c&amp;id=5c2de61a2e" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-					<div id="mc_embed_signup_scroll">
-						<input class="required" id="mce-FNAME" name="FNAME" placeholder="first name" required="" type="text" value=""> <input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value=""> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div aria-hidden="true" style="position: absolute; left: -5000px;">
-							<input name="b_e92e02046a8884bd6e47fb57c_5c2de61a2e" tabindex="-1" type="text" value="">
-						</div><input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe">
-					</div>
-				</form>
+	</div>
+	</div>
+	<!--End Right Nav-->
+	<p>
+		<!-- Footer Elements -->
+	</p>
+	<footer class="row footer">
+		<div class="col-sm-6">
+			<center>SUBSCRIBE
+				<p>
+					<p>
+						Receive free patterns, academy lessons and more
+						<p>
+							<p>
+								<!-- Begin MailChimp Signup Form -->
+								<div class="mc_embed_signup">
+									<form action="https://crotchetyhooker.us16.list-manage.com/subscribe/post?u=e92e02046a8884bd6e47fb57c&amp;id=5c2de61a2e " class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+										<div id="mc_embed_signup_scroll">
+											<input class="required" id="mce-FNAME " name="FNAME" placeholder="first name" required="" type="text" value=""> <input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value="">
+											<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+											<div aria-hidden="true" style="position: absolute; left: -5000px;">
+												<input name="b_e92e02046a8884bd6e47fb57c_5c2de61a2e" tabindex="-1" type="text" value="">
+											</div>
+											<p>
+												<p><input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Sign up">
+													<p>
+										</div>
+									</form>
+			</center>
 			</div>
-		</center><!--End mc_embed_signup-->
-	</footer><!-- Javascript-->
+		</div>
+		<!--End mc_embed_signup-->
+		<div class="col-sm-6">
+			<center>CONTACT INFO:
+				<p>
+					<p>
+						Find a mistake? <a href="mailto:crotchetyhooker@gmail.com?subject=Need help!"> Email Me.</a>
+						<p>Do you need more help? Let me know on <a href="https://www.facebook.com/crotchetyhooker/">Facebook.</a>
+			</center>
+		</div>
+	</footer>
+	<!-- Javascript-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
-	</script> 
+	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
-	</script> 
+	</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
 	</script>
 </body>
+
 </html>
