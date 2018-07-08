@@ -4,7 +4,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-a:link {
+a {
   color: #14737a;
 }
 
@@ -89,6 +89,7 @@ a:link {
 
 .leftnav {
   background-color: white;
+  margin-top: 50px;
 }
 
 .nav li a {
@@ -118,8 +119,7 @@ a:link {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   box-shadow: 5px 5px 5px grey;
-  margin-right: 15px;
-  margin-left: 5px;
+  margin: 7px auto;
 }
 
 .section::after {
