@@ -1,7 +1,15 @@
 /* Full Page Styling */
 
-* {
-  font-family: 'Lato', sans-serif;
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+}
+
+h4 {
+  font-family: 'Noto Sans', sans-serif;
 }
 
 a {
@@ -33,24 +41,19 @@ a {
 /* Google Search Bar Styling*/
 
 .search {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 /* Top NavBar Styling*/
 
 .navbar-custom {
-  background-color: #14737a;
+  background-color: #0000;
   font-size: 17px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-  width: 90%;
-  left: 0;
+  width: 75%;
   text-align: center;
   margin: 0 auto;
+  font-family: 'Playfair Display', serif;
   margin-bottom: 30px;
-  box-shadow: 5px 5px 5px grey;
 }
 
 /* change the brand and text color */
@@ -68,7 +71,7 @@ a {
 /* change the color of active or hovered links */
 
 .navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
-  color: white;
+  color: black;
 }
 
 .custom-toggler.navbar-toggler {
@@ -114,10 +117,7 @@ a {
 /* General Shadow Image Styling*/
 
 .image {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-radius: 50%;
   box-shadow: 5px 5px 5px grey;
   margin: 7px auto;
 }
@@ -165,29 +165,24 @@ hr {
 /* Footer Content Styling*/
 
 .footer {
-  background-color: #14737a;
-  font-size: 17px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  background-color: #0000;
+  font-size: 14px;
   width: 90%;
   left: 0;
   margin: 0 auto;
   margin-top: 100px;
-  box-shadow: 5px 5px 5px grey;
   padding: 10px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .footer a:link {
-  color: white;
+  color: #14737a;
 }
 
 /* visited link */
 
 .footer a:visited {
-  color: white;
+  color: #14737a;
 }
 
 .button {
@@ -199,18 +194,6 @@ hr {
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-}
-
-.fleft {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-.fright {
-  float: right;
-  width: 50%;
-  padding: 5px;
 }
 
 /*Close body tag. Main color hex: 14737a */
