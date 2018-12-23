@@ -40,20 +40,40 @@ a {
 
 /* Google Search Bar Styling*/
 
-.search {
-  max-width: 400px;
+#searchContainer {
+  float: right;
+  display: inline-block;
+  width: 29%;
+}
+
+#search {
+  display: inline-block;
+}
+
+.scontainer {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-bottom: 50px;
 }
 
 /* Top NavBar Styling*/
 
 .navbar-custom {
-  background-color: #0000;
-  font-size: 17px;
-  width: 75%;
+  background-color: #f7edf5;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 50%;
   text-align: center;
   margin: 0 auto;
   font-family: 'Playfair Display', serif;
-  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .navbar-custom {
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
 }
 
 /* change the brand and text color */
@@ -70,8 +90,13 @@ a {
 
 /* change the color of active or hovered links */
 
-.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
-  color: black;
+.nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
+  color: #14737a;
+  text-decoration: underline;
+}
+
+.nav-item.visited {
+  color: #14737a;
 }
 
 .custom-toggler.navbar-toggler {
@@ -165,7 +190,7 @@ hr {
 /* Footer Content Styling*/
 
 .footer {
-  background-color: #0000;
+  background-color: #f7edf5;
   font-size: 14px;
   width: 90%;
   left: 0;
