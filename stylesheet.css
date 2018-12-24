@@ -10,6 +10,7 @@ h1 {
 
 h4 {
   font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
 }
 
 a {
@@ -17,6 +18,11 @@ a {
 }
 
 /* Social Icons Styling */
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
 
 .column {
   float: right;
