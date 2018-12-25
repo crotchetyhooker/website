@@ -2,31 +2,53 @@
 <html lang="en">
 
 <head>
-   <footer>
-    <div id="head-placeholder">
-    </div>
-  </footer>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+  <!-- CSS references -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="stylesheet.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Noto+Sans" rel="stylesheet">
+  <title>Crotchety Hooker</title>
+  <link href="logo.png" rel="icon" type="image/png">
+
+  <!--Google Analytics tracking-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120977745-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120977745-1');
+  </script>
 </head>
 
 <body>
   <!-- Header- Top Nav/Social Icons, Search and Mobile Ad -->
+  <div id="nav-placeholder">
+  </div>
 
-<head>
-   <footer>
-    <div id="header-placeholder">
-    </div>
-  </footer>
-</head>
-   
   <!-- Begin body grid -->
-
   <div class="row">
-    <!-- Main Article -->
+
+    <!-- Blog iframe on large -->
     <div class="d-none d-md-block col-lg-8">
       <center>
         <iframe src="https://crotchetyhookers.blogspot.com" height="1000px" width="1000px" frameBorder="0"></iframe>
       </center>
     </div>
+
+    <!-- Blog iframe on small -->
     <div class="d-block d-sm-none">
       <center>
         <iframe src="https://crotchetyhookers.blogspot.com?m=1" height="500px" width="350px" frameBorder="0"></iframe>
@@ -48,18 +70,15 @@
     </div>
   </div>
 
-
   <!-- Footer Elements -->
-  <footer>
-    <div id="footer-placeholder">
-    </div>
-  </footer>
+  <div id="footer-placeholder">
+  </div>
+
 
   <!-- Javascript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
     $(function() {
       $("#nav-placeholder").load("header.html");
@@ -68,11 +87,6 @@
   <script>
     $(function() {
       $("#footer-placeholder").load("footer.html");
-    });
-  </script>
-  <script>
-    $(function() {
-      $("#head-placeholder").load("head.html");
     });
   </script>
 </body>
