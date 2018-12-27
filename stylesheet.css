@@ -127,8 +127,14 @@ a {
 /* Leftnav styling */
 
 .leftnav {
-  background-color: white;
   margin-top: 50px;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
 }
 
 .nav li a {
@@ -138,10 +144,6 @@ a {
 .nav li a:hover {
   background-color: #555;
   color: white;
-}
-
-.flex-sm-column {
-  position: fixed;
 }
 
 /* Main Article Styling*/
